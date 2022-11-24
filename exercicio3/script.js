@@ -19,4 +19,4 @@ const boasVindas2 = boasVindas1.replace("azul","laranja")
 // c) Verifique se a nova string inclui **verde**, e se inclui **laranja**.
 console.log(boasVindas2);
 // **EXTRA:** tente fazer o “mas não deixe o gato sair” ficar em maiúsculo, assim como o “BOAS VINDAS”
-console.log(boasVindas2.toUpperCase());
+console.log(boasVindas2.replace("mas não deixe o gato sair","MAS NÃO DEIXE O GATO SAIR"));
